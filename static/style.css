@@ -1,0 +1,146 @@
+/* Fuente global */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    background: linear-gradient(135deg, #b892ff, #d4b3ff); /* lila notable */
+    color: #2b2b2b;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #ff6ba6, #ff9ecf);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fffacd; /* amarillo pálido */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff7e6;
+}
+
+/* Beneficios */
+.beneficios {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    background-image: url('../static/foto.jpg'); /* tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: 2px solid orange;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.beneficios .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid orange;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+button {
+    background: #ff6ba6;
+    color: #fffacd;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e0558f;
+    color: #fffacd;
+}
+
+/* Botón extra */
+.extra-btn {
+    display: block;
+    text-align: center;
+    background: #ff6ba6;
+    color: #fffacd;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem auto;
+    max-width: 200px;
+    border: 2px solid orange;
+}
+
+.extra-btn:hover {
+    background: #e0558f;
+}
+
+/* Botón WhatsApp */
+.whatsapp-btn {
+    display: block;
+    text-align: center;
+    background: #25d366;
+    color: #fffacd;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem auto;
+    max-width: 200px;
+    border: 2px solid orange;
+}
+
+.whatsapp-btn:hover {
+    background: #1da851;
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    background: white;
+    border-radius: 8px;
+    border: 2px solid orange;
+}
+
+blockquote {
+    font-style: italic;
+    background: #fff5f0;
+    border-left: 4px solid orange;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: #6a1b9a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ff6ba6;
+    color: #fffacd;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Comercial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Optimiza tu negocio en minutos</h1>
+        <p>Soluciones ágiles y efectivas para tu campaña</p>
+    </section>
+
+    <!-- Beneficios con imagen -->
+    <section class="beneficios">
+        <div class="overlay">
+            <h2>¿Por qué elegirnos?</h2>
+            <ul>
+                <li>🚀 Respuesta rápida a tus necesidades.</li>
+                <li>📱 Diseño adaptable a cualquier dispositivo.</li>
+                <li>🎯 Enfoque en resultados reales.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="form-section">
+        <h2>Dejanos tus datos</h2>
+        <form action="/enviar" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <a href="https://wa.me/5491123131387" target="_blank" class="extra-btn">📱 Escribime por WhatsApp</a>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <blockquote>“Un servicio excelente, rápido y profesional. Lo recomiendo 100%.” – Juan P.</blockquote>
+        <blockquote>“La mejor decisión que tomé para mi negocio. Resultados inmediatos.” – Carla G.</blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Micaela Corolaire | Contacto: <a href="mailto:corolairem@gmail.com">corolairem@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+
+
